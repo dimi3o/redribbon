@@ -35,7 +35,6 @@ Page {
             }
             if (!secondStep) {
                 if (videoRRC1.playbackState === MediaPlayer.StoppedState) {
-//                    logo.visible = true
                     videoRRC1.source = dataPath+"aurora.mp4"
                     videoRRC1.play()
                     soundEffect1.play()
@@ -57,13 +56,6 @@ Page {
         id: videoRRC1
         source: dataPath+"redribbon.mp4"
     }
-//    Image {
-//        id: logo
-//        source: dataPath+"aur.png"
-//        anchors.horizontalCenter: parent.horizontalCenter
-//        anchors.verticalCenter: parent.verticalCenter
-//        visible: false
-//    }
     IconButton {
         id: resetBtn
         highlighted: true
