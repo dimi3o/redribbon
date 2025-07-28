@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.bmstu.redribbon
+Exec=/usr/bin/ru.bmstu.redribbon
+Name=Red ribbon
+Name[ru]=Красная лента
+
+[X-Application]
+Permissions=Audio
+OrganizationName=ru.bmstu
+ApplicationName=redribbon
+ExecDBus=/usr/bin/ru.bmstu.redribbon
+ExportDBusInterfaces=ru.bmstu.redribbon
